@@ -14,6 +14,8 @@ Go to terminal:
 cd {root of project}    
 
 psql postgres
+CREATE ROLE {user} WITH LOGIN PASSWORD 'password';
+ALTER USER {user} WITH SUPERUSER;
 CREATE DATABASE vending;
 exit
 
