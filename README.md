@@ -7,9 +7,9 @@ brew install postgresql@14
 brew services start postgresql@14
 
 brew services stop postgresql@14
-** Setup database **
 
-Go to terminal:
+** Setup database **
+In terminal:
 
 cd {root of project}    
 
@@ -21,5 +21,4 @@ exit
 
 psql vending
 CREATE SCHEMA vending;
-
 \i server/sql/setup.sql
